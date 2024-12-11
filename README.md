@@ -5,7 +5,6 @@
 
 Here’s the table format with only the questions:
 
-```markdown
 # Table of Contents
 
 | No. | Questions |
@@ -49,9 +48,6 @@ Here’s the table format with only the questions:
 | 33  | How do you handle state management in large React applications? |
 | 34  | What are some best practices for structuring React applications? |
 | 35  | How do you ensure accessibility in React applications? |
-```
-
-This format provides the question list in a structured table format.
 
 
 **Basic Questions:**
