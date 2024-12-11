@@ -143,31 +143,41 @@ Here’s the table format with only the questions:
     - In React, keys are unique identifiers assigned to elements in a list to help React efficiently manage and update the user interface. They enable React to identify which items have changed, been added, or removed, allowing for optimal rendering performance.
 
 **26. How do you implement code splitting in a React application?**
-Code splitting is a technique to split your code into smaller bundles, which can be loaded on demand. In React, this can be achieved using dynamic `import()` statements and React's `Suspense` component to load components lazily.
+
+   - Code splitting is a technique to split your code into smaller bundles, which can be loaded on demand. In React, this can be achieved using dynamic `import()` statements and React's `Suspense` component to load components lazily.
 
 **27. What are React portals?**
-React portals provide a way to render children into a DOM node that exists outside the hierarchy of the parent component. This is useful for modals, tooltips, and other UI elements that need to break out of their parent container's styling constraints.
+
+   - React portals provide a way to render children into a DOM node that exists outside the hierarchy of the parent component. This is useful for modals, tooltips, and other UI elements that need to break out of their parent container's styling constraints.
 
 **28. Explain the use of the `useEffect` hook.**
-The `useEffect` hook allows you to perform side effects in functional components, such as data fetching, subscriptions, or manually changing the DOM. It combines the behavior of `componentDidMount`, `componentDidUpdate`, and `componentWillUnmount` from class components.
+
+   - The `useEffect` hook allows you to perform side effects in functional components, such as data fetching, subscriptions, or manually changing the DOM. It combines the behavior of `componentDidMount`, `componentDidUpdate`, and `componentWillUnmount` from class components.
 
 **29. How do you manage side effects in React?**
-Side effects in React are managed using the `useEffect` hook in functional components and lifecycle methods like `componentDidMount`, `componentDidUpdate`, and `componentWillUnmount` in class components.
+
+   - Side effects in React are managed using the `useEffect` hook in functional components and lifecycle methods like `componentDidMount`, `componentDidUpdate`, and `componentWillUnmount` in class components.
 
 **30. What are the differences between React and React Native?**
-React is a JavaScript library for building user interfaces for web applications, while React Native is a framework for building native mobile applications using React. React Native allows you to write mobile applications using JavaScript and React, which are then rendered using native components.
+
+   - React is a JavaScript library for building user interfaces for web applications, while React Native is a framework for building native mobile applications using React. React Native allows you to write mobile applications using JavaScript and React, which are then rendered using native components.
 
 **31. How do you test React components?**
-React components can be tested using tools like Jest for running tests and React Testing Library for rendering components and interacting with them in a way that simulates user behavior.
+
+   - React components can be tested using tools like Jest for running tests and React Testing Library for rendering components and interacting with them in a way that simulates user behavior.
 
 **32. What is the purpose of PropTypes in React?**
-PropTypes are used to validate the props passed to a component, ensuring that they are of the correct type and meet the specified requirements. This helps in catching bugs and improving code readability.
+
+   - PropTypes are used to validate the props passed to a component, ensuring that they are of the correct type and meet the specified requirements. This helps in catching bugs and improving code readability.
 
 **33. How do you handle state management in large React applications?**
-In large applications, state management can be handled using libraries like Redux or the Context API. Redux provides a centralized store for the application's state, while the Context API allows for sharing state across components without prop drilling.
+
+   - In large applications, state management can be handled using libraries like Redux or the Context API. Redux provides a centralized store for the application's state, while the Context API allows for sharing state across components without prop drilling.
 
 **34. What are some best practices for structuring React applications?**
-Best practices include organizing components into a logical directory structure, keeping components small and focused, using functional components with hooks, and managing state appropriately.
+
+   - Best practices include organizing components into a logical directory structure, keeping components small and focused, using functional components with hooks, and managing state appropriately.
 
 **35. How do you ensure accessibility in React applications?**
-Ensuring accessibility involves using semantic HTML elements, providing alternative text for images, ensuring proper keyboard navigation, and using ARIA attributes where necessary. Tools like ESLint plugins and accessibility audits can help identify and fix accessibility issues.
+
+   - Ensuring accessibility involves using semantic HTML elements, providing alternative text for images, ensuring proper keyboard navigation, and using ARIA attributes where necessary. Tools like ESLint plugins and accessibility audits can help identify and fix accessibility issues.
