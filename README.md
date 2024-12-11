@@ -8,7 +8,7 @@ Here’s the table format with only the questions:
 # Table of Contents
 
 | No. | Questions |
-|-----|-----------|
+|-----|--------------------|
 | **Basic** |           |
 | 1   | What is React? |
 | 2   | What are the main features of React? |
