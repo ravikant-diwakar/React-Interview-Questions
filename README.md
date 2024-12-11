@@ -142,7 +142,7 @@ Here’s the table format with only the questions:
 25. **What is the significance of keys in React lists?**
     - In React, keys are unique identifiers assigned to elements in a list to help React efficiently manage and update the user interface. They enable React to identify which items have changed, been added, or removed, allowing for optimal rendering performance.
 
-**26. How do you implement code splitting in a React application?**
+26. **How do you implement code splitting in a React application?**
 
    - Code splitting is a technique to split your code into smaller bundles, which can be loaded on demand. In React, this can be achieved using dynamic `import()` statements and React's `Suspense` component to load components lazily.
 
