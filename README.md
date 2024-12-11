@@ -3,10 +3,6 @@
 
 ### Table of Contents
 
-Here’s the table format with only the questions:
-
-# Table of Contents
-
 | No. | Questions |
 |-----|--------------------|
 | **Basic** |           |
