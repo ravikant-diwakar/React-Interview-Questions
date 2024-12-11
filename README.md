@@ -1,4 +1,64 @@
+# React Interview Questions & Answers
 
+
+
+
+
+
+
+
+
+# Table of Contents
+
+## Basic Questions
+1. [What is React?](#what-is-react)
+2. [What are the main features of React?](#what-are-the-main-features-of-react)
+3. [Explain the concept of Virtual DOM.](#explain-the-concept-of-virtual-dom)
+4. [What is JSX?](#what-is-jsx)
+5. [How does React differ from other JavaScript frameworks?](#how-does-react-differ-from-other-javascript-frameworks)
+6. [What are components in React?](#what-are-components-in-react)
+7. [Differentiate between functional and class components.](#differentiate-between-functional-and-class-components)
+8. [What are props in React?](#what-are-props-in-react)
+9. [How is state managed in React?](#how-is-state-managed-in-react)
+10. [What is the purpose of the render() method in React?](#what-is-the-purpose-of-the-render-method-in-react)
+
+## Intermediate Questions
+1. [What are React lifecycle methods?](#what-are-react-lifecycle-methods)
+2. [Explain the use of hooks in React.](#explain-the-use-of-hooks-in-react)
+3. [What is the Context API?](#what-is-the-context-api)
+4. [How does React handle events?](#how-does-react-handle-events)
+5. [What are higher-order components (HOC)?](#what-are-higher-order-components-hoc)
+6. [Explain the concept of prop drilling and how to avoid it.](#explain-the-concept-of-prop-drilling-and-how-to-avoid-it)
+7. [What are controlled and uncontrolled components?](#what-are-controlled-and-uncontrolled-components)
+8. [How do you optimize performance in a React application?](#how-do-you-optimize-performance-in-a-react-application)
+9. [What is React Router, and how does it work?](#what-is-react-router-and-how-does-it-work)
+10. [How do you handle forms in React?](#how-do-you-handle-forms-in-react)
+
+## Advanced Questions
+1. [What is Redux, and how does it integrate with React?](#what-is-redux-and-how-does-it-integrate-with-react)
+2. [Explain the concept of server-side rendering in React.](#explain-the-concept-of-server-side-rendering-in-react)
+3. [What are error boundaries in React?](#what-are-error-boundaries-in-react)
+4. [How does React's reconciliation algorithm work?](#how-does-reacts-reconciliation-algorithm-work)
+5. [What is the significance of keys in React lists?](#what-is-the-significance-of-keys-in-react-lists)
+6. [How do you implement code splitting in a React application?](#how-do-you-implement-code-splitting-in-a-react-application)
+7. [What are React portals?](#what-are-react-portals)
+8. [Explain the use of the useEffect hook.](#explain-the-use-of-the-useeffect-hook)
+9. [How do you manage side effects in React?](#how-do-you-manage-side-effects-in-react)
+10. [What are the differences between React and React Native?](#what-are-the-differences-between-react-and-react-native)
+
+## Testing and Best Practices
+1. [How do you test React components?](#how-do-you-test-react-components)
+2. [What is the purpose of PropTypes in React?](#what-is-the-purpose-of-proptypes-in-react)
+3. [How do you handle state management in large React applications?](#how-do-you-handle-state-management-in-large-react-applications)
+4. [What are some best practices for structuring React applications?](#what-are-some-best-practices-for-structuring-react-applications)
+5. [How do you ensure accessibility in React applications?](#how-do-you-ensure-accessibility-in-react-applications)
+
+
+
+
+
+
+### Table of Contents
 **Basic Questions:**
 
 1. What is React?
